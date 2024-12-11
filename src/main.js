@@ -25,6 +25,9 @@ function preload() {
 
 function create() {
     console.log('Creating game...');
+    this.input.on('pointerdown', (pointer) => {
+        console.log(`Pointer down at x: ${pointer.x}, y: ${pointer.y}`);
+    });
 }
 
 function update() {}
