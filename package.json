@@ -1,0 +1,17 @@
+{
+  "name": "craftypiggies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url ./",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.13.2",
+    "phaser": "^3.87.0"
+  }
+}

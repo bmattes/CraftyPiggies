@@ -1,0 +1,14 @@
+{
+    "level": 1,
+    "goal": [
+        { "type": "circle", "color": "green", "count": 10 },
+        { "type": "star", "color": "purple", "count": 5 }
+    ],
+    "pieces": [
+        { "type": "Box", "size": "small", "material": "wood", "angle": 0 },
+        { "type": "Plank", "size": "medium", "material": "ice", "angle": 0 }
+    ],
+    "obstacles": [
+        { "type": "rectangle", "x": 100, "y": 500, "width": 50, "height": 20 }
+    ]
+}
